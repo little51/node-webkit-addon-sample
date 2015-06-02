@@ -1,0 +1,9 @@
+{
+    "name": "nw-test",
+    "version": "0.0.1",
+    "main": "index.html",
+    "window": {
+        "title": "node-webkit test",
+        "fullscreen": false
+	}
+}

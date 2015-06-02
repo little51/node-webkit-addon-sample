@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>test webkit</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using node.js 
+	<script>
+		var localProxy = require('./build/Release/localproxy');
+		document.write(localProxy.proxy('我是入参'));
+		document.write(process.version) ;
+	</script>	
+  </body>
+</html>
