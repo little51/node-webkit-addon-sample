@@ -8,7 +8,7 @@
     We are using node.js 
 	<script>
 		var localProxy = require('./build/Release/localproxy');
-		document.write(localProxy.proxy('我是入参'));
+		document.write(localProxy.proxy('{"functionname": "getDeviceID"}'));
 		document.write(process.version) ;
 	</script>	
   </body>
