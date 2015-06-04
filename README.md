@@ -1,23 +1,23 @@
 # node-webkit addon sample
 ==========================
-## »·¾³
+## ç¯å¢ƒ
 ### 1.node v0.12.4
 ### 2.node-webkit v0.12.2
 ### 3.vs2010+
-## ±àÒë   
-### 1.°²×°nw-gyp
+## ç¼–è¯‘   
+### 1.å®‰è£…nw-gyp
 npm install -g nw-gyp
-### 2.±àÒë
-ÔÚ³ÌĞòÄ¿Â¼ÏÂÖ´ĞĞ
-nw-gyp configure --runtime=node-webkit --target=0.12.2
+### 2.ç¼–è¯‘
+åœ¨ç¨‹åºç›®å½•ä¸‹æ‰§è¡Œ<br>
+nw-gyp configure --runtime=node-webkit --target=0.12.2<br>
 nw-gyp build
-## ²âÊÔ
-ÔÚ³ÌĞòÄ¿Â¼ÏÂ£¬Ö´ĞĞ£¨×¢ÒâÓĞÒ»¸öµã£©
+## æµ‹è¯•
+åœ¨ç¨‹åºç›®å½•ä¸‹ï¼Œæ‰§è¡Œï¼ˆæ³¨æ„æœ‰ä¸€ä¸ªç‚¹ï¼‰
 nw .
-## ÓÃnode.jsµ÷ÊÔÔ´³ÌĞò
-npm install -g node-gyp
-node-gyp configure
-node-gyp build
+## ç”¨node.jsè°ƒè¯•æºç¨‹åº
+npm install -g node-gyp<br>
+node-gyp configure<br>
+node-gyp build<br>
 node index.js
-## ²Î¿¼
+## å‚è€ƒ
 https://github.com/joyent/node/blob/v0.12/doc/api/addons.markdown
