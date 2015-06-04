@@ -38,7 +38,7 @@ void Proxy(const FunctionCallbackInfo<Value>& args) {
     if(functionname =="getDeviceID") {
         HINSTANCE hDLL;
         typedef char*(*pHDSerialNumRead)();
-        hDLL = LoadLibrary("des.dll");
+        hDLL = LoadLibrary("xxx.dll");
         pHDSerialNumRead ph=(pHDSerialNumRead)GetProcAddress(hDLL,"HDSerialNumRead");
 		/*nw-gyp与node-gyp的行为不一样，nw-gyp里char*必须先copy到一个数组中，不然返回是乱码*/
         char* p = ph() ;
